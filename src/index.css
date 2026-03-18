@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Source+Sans+3:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 11%;
+    --primary: 43 74% 49%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 11%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 54%;
+    --accent: 43 74% 49%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 43 74% 49%;
+    --input: 0 0% 80%;
+    --ring: 43 74% 49%;
+    --radius: 0.25rem;
+
+    --gym-dark: 0 0% 0%;
+    --gym-gold: 43 74% 49%;
+    --gym-gold-light: 43 80% 60%;
+    --gym-text: 0 0% 11%;
+    --gym-gray: 0 0% 53%;
+
+    --font-display: 'Inter', sans-serif;
+    --font-body: 'Source Sans 3', sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
