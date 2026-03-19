@@ -12,9 +12,7 @@ const HeroSection = () => (
       <div className="absolute inset-0 z-10 flex items-end px-6 pb-14 md:px-16">
         <div className="flex w-full flex-col gap-7 md:flex-row md:items-end md:justify-between">
           <div className="max-w-[620px]">
-            <p className="mb-4 inline-flex items-center rounded-full border border-primary/40 bg-black/35 px-4 py-1 font-display text-xs font-semibold tracking-[0.2em] text-primary md:text-sm">
-              TRAIN. TRANSFORM. THRIVE.
-            </p>
+            
             <h1 className="font-display text-4xl font-extrabold leading-tight text-primary-foreground md:text-5xl lg:text-[3.3rem]">
               LET'S <span className="text-primary">GRIND</span> YOUR BODY
             </h1>
@@ -24,9 +22,7 @@ const HeroSection = () => (
             <p className="mb-5 font-display text-3xl font-bold text-primary-foreground md:text-[2.6rem]">
               GET FIT WITH <span className="text-primary">FITZONE</span>
             </p>
-            <p className="mb-6 max-w-[320px] text-sm text-white/85 md:ml-auto md:text-base">
-              Build discipline, strength, and confidence with trainers who keep you progressing every week.
-            </p>
+            
             <a
               href="#contact"
               className="inline-block rounded-2xl bg-[#5f430c]/85 px-8 py-3 font-display text-lg font-semibold text-primary transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary hover:text-black"
