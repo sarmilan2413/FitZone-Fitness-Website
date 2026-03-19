@@ -2,7 +2,7 @@ import transImg from "@/assets/transformation.png";
 import { Play } from "lucide-react";
 
 const Transformation = () => (
-  <section className="py-20 px-6 md:px-16 max-w-7xl mx-auto text-center">
+  <section id="classes" className="py-20 px-6 md:px-16 max-w-7xl mx-auto text-center">
     <h2 className="font-display font-extrabold text-2xl md:text-3xl text-foreground mb-10">
       GET YOUR <span className="text-primary">BODY</span> TRANSFORMATION IN <span className="text-primary">60</span> DAYS !!!
     </h2>
